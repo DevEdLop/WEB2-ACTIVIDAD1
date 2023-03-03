@@ -11,7 +11,8 @@ export const Card = () => {
         <>
             {
                 heroes.map(hero => (
-                    <div key={hero.id} className="px-2 col-md-2">
+
+                    < div key={hero.id} className="px-2 col-md-2" >
                         <div className="card " >
                             <img src={hero.img} className="card-img-top" alt={hero.superhero} />
                             <div className="card-body">
